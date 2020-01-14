@@ -6,7 +6,7 @@ h2 {
     text-align: center;
     color: coral;
     font-size: 3vw;
-    font-family: 'Courgette', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 div {
@@ -18,7 +18,7 @@ div {
 div p {
     width: 35%;
     color: coral;
-    font-family: 'Courgette', cursive;
+    font-family: 'Raleway', sans-serif;
     font-size: 2vw;
     display: inline-block;
     margin: 0.5vw;
