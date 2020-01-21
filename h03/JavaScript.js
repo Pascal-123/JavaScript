@@ -33,14 +33,3 @@ for (var img1 in img) {
     img[img1].src = "img/dier" + randomNumbers[random] + ".jpg";
     random++;
 }
-
-
-
-
-
-
-
-
-
-
-
