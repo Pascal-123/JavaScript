@@ -2,86 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        body {
-            background-color: lightskyblue;
-        }
-        .div {
-            display: flex;
-        }
-        .div1 {
-            margin: auto;
-            width: 150px;
-            height: 75px;
-            border: 1px solid black;
-            background-color: yellow;
-        }
-        .div2 {
-            margin: auto;
-            background-color: deeppink;
-            width: 225px;
-            height: 75px;
-            border: 1px solid black;
-        }
-        .div3 {
-            margin: auto;
-            width: 150px;
-            height: 75px;
-            border: 1px solid black;
-            background-color: yellow;
-        }
-        .div4 {
-            margin: auto;
-            width: 900px;
-            height: 450px;
-        }
-        .div5 {
-            background-color: white;
-            width: 120px;
-            height: 120px;
-            border: 1px solid black;
-            float: right;
-            margin: 14px;
-        }
-        .div6 {
-            background-color: yellow;
-            border: 1px solid black;
-            width: 100px;
-            height: 75px;
-            margin: auto;
-        }
-    </style>
+    <title>Memory Game</title>
+    <link href="Stylesheet.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="div">
-    <div class="div1"></div>
-    <div class="div2"></div>
-    <div class="div3"></div>
-</div>
-<div class="div4">
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <br>
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <br>
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <div class="div5"></div>
-    <div class="div5"></div>
-</div>
-<div class="div6"></div>
+<section class="memory-game">
+    <div class="memory-card" data-framework="react">
+        <img class="front-face" src="img/react.svg" alt="React">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="react">
+        <img class="front-face" src="img/react.svg" alt="React">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="angular">
+        <img class="front-face" src="img/angular.svg" alt="Angular">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="angular">
+        <img class="front-face" src="img/angular.svg" alt="Angular">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="ember">
+        <img class="front-face" src="img/ember.svg" alt="Ember">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="ember">
+        <img class="front-face" src="img/ember.svg" alt="Ember">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="vue">
+        <img class="front-face" src="img/vue.svg" alt="Vue">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="vue">
+        <img class="front-face" src="img/vue.svg" alt="Vue">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="backbone">
+        <img class="front-face" src="img/backbone.svg" alt="Backbone">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="backbone">
+        <img class="front-face" src="img/backbone.svg" alt="Backbone">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="aurelia">
+        <img class="front-face" src="img/aurelia.svg" alt="Aurelia">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="aurelia">
+        <img class="front-face" src="img/aurelia.svg" alt="Aurelia">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="chopsticks">
+        <img class="front-face" src="img/chopsticks.svg" alt="Chopsticks">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="chopsticks">
+        <img class="front-face" src="img/chopsticks.svg" alt="Chopsticks">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="rice">
+        <img class="front-face" src="img/rice.svg" alt="Rice">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="rice">
+        <img class="front-face" src="img/rice.svg" alt="Rice">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="coffee">
+        <img class="front-face" src="img/coffee.svg" alt="Coffee">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+
+    <div class="memory-card" data-framework="coffee">
+        <img class="front-face" src="img/coffee.svg" alt="Coffee">
+        <img class="back-face" src="img/js-badge.svg" alt="Memory Card">
+    </div>
+</section>
 <script src="JavaScript.js"></script>
 </body>
 </html>
