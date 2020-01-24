@@ -24,19 +24,34 @@ h1 {
     background-color: darkslategrey;
     border-radius: 10px;
     box-shadow: 5px 5px 8px black;
+    position: relative;
+    transform-style: preserve-3d
+
 }
 
 .cards:active {
-    transform: scale(0.97);
-    transition: 0.15s;
+    transform: scale(0.95);
+    transition: 0.1s;
 }
 
-.front {
+.front, .back {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
     padding: 15px;
+    position: absolute;
+    backface-visibility: hidden;
 }
+
+.cards.flip {
+    transform: rotateY(180deg);
+}
+
+.front {
+    transform: rotateY(180deg);
+}
+
+
 
 
 
