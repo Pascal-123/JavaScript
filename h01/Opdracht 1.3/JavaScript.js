@@ -5,4 +5,4 @@ var mijnauto = {
     kleur: "blauw"
 };
 
-console.log(mijnauto.kleur);
+console.log(mijnauto.aantalWielen);

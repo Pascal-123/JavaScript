@@ -19,7 +19,7 @@ document.getElementById("dier7").src = "img/dier7.jpg";
 document.getElementById("dier8").src = "img/dier8.jpg";
 document.getElementById("dier9").src = "img/dier9.jpg";
 // shuffle
-var img = document.getElementsByTagName("img");
+var plaatjes = document.getElementsByTagName("img");
 var random = 0;
 var randomNumbers = [];
 while (randomNumbers.length < 9) {
@@ -29,7 +29,7 @@ while (randomNumbers.length < 9) {
     }
 }
 random = 0;
-for (var img1 in img) {
-    img[img1].src = "img/dier" + randomNumbers[random] + ".jpg";
+for (var plaatje in plaatjes) {
+    plaatjes[plaatje].src = "img/dier" + randomNumbers[random] + ".jpg";
     random++;
 }
