@@ -16,10 +16,10 @@ function createAapImages() {
     for (var i = 0; i < pictureHolders.length; i++) {
         favoriet = document.createElement("div");
         favoriet.className = "favoriet";
-        favoriet.id = "favoriet_" + (i+1);
+        favoriet.id = "favoriet_" + (i + 1);
         aapPlaatje = document.createElement("img");
-        aapPlaatje.src = "img/dier" + (i+1) + ".jpg";
-        aapPlaatje.id = (i+1);
+        aapPlaatje.src = "img/dier" + (i + 1) + ".jpg";
+        aapPlaatje.id = (i + 1);
         aapPlaatje.addEventListener("click", function () {
             maakFavoriet(this.id);
         });

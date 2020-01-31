@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: darkslategray;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+}
+
+section {
+    width: 960px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    background-color: rebeccapurple;
+    width: calc(16.667% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+
+img {
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
