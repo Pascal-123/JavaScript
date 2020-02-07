@@ -2,7 +2,6 @@ body {
     background-image: url("img/spikes.png");
 }
 
-
 a {
     text-decoration: none;
 }
@@ -26,9 +25,13 @@ h3 {
     color: darkslategrey;
     font-size: 2em;
     font-family: 'Raleway', sans-serif;
+    transition: transform 0.5s;
 }
 
-
+h3:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 
 
 

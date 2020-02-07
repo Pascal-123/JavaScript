@@ -38,7 +38,7 @@ function cardUnflip() {
     setTimeout(function () {
         firstCard.classList.remove('flip');
         secondCard.classList.remove('flip');
-    }, 1000);
+    }, 1500);
 
 }
 
@@ -55,7 +55,7 @@ function cardUnlock() {
             let card = cards[i];
             card.addEventListener("click", cardFlip)
         }
-    }, 1000)
+    }, 1500)
 }
 
 function cardShuffle() {
@@ -68,6 +68,3 @@ for (let i = 0; i < cards.length; i++) {
     let card = cards[i];
     card.addEventListener("click", cardFlip)
 }
-
-
-
