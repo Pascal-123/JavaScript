@@ -68,9 +68,6 @@ for (let i = 0; i < cards.length; i++) {
     card.addEventListener("click", cardFlip)
 }
 
-function cardRefresh() {
-    cardShuffle();
-    cardUnflip();
-}
+
 
 
